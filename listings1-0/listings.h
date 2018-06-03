@@ -66,7 +66,7 @@ class Listing{
         
             int w = 10;
             os << "Company  :" << setw(listing.getCompany().size() + w) << listing.getCompany() << "\n"
-               << "position :" << setw(listing.getPosition().size() + w) << listing.getPosition() << "\n"
+               << "Position :" << setw(listing.getPosition().size() + w) << listing.getPosition() << "\n"
                << "Job      :" << setw(listing.getJob().size() + w) << listing.getJob() << "\n"
                << "Status   :" << setw(listing.getStatus().size() + w) << listing.getStatus() << "\n";
 
